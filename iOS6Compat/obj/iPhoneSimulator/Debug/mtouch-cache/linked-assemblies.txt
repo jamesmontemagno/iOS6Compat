@@ -1,0 +1,3 @@
+/Users/jamesmontemagno/Projects/iOS6Compat/iOS6Compat/obj/iPhoneSimulator/Debug/mtouch-cache/Link/monotouch.dll
+/Users/jamesmontemagno/Projects/iOS6Compat/iOS6Compat/obj/iPhoneSimulator/Debug/mtouch-cache/Link/mscorlib.dll
+/Users/jamesmontemagno/Projects/iOS6Compat/iOS6Compat/obj/iPhoneSimulator/Debug/mtouch-cache/Link/iOS6Compat.exe

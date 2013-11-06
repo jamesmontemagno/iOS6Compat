@@ -1,0 +1,230 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F1B88CF0000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22AC956D0000000000000000 /* UIKit.framework */; };
+		B12C02000000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44238A000000000000000000 /* MapKit.framework */; };
+		15E4949A0000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1975A1380000000000000000 /* Foundation.framework */; };
+		94F76E300000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0838100000000000000000 /* CoreGraphics.framework */; };
+		181ACE930000000000000000 /* iOS6CompatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BABDB310000000000000000 /* iOS6CompatViewController.xib */; };
+		2D4E372B0000000000000000 /* blueprint.png in Resources */ = {isa = PBXBuildFile; fileRef = 30DF43C90000000000000000 /* blueprint.png */; };
+		1B78F8150000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F0A04B30000000000000000 /* Default-568h@2x.png */; };
+		9A3B8FF00000000000000000 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D34C59D00000000000000000 /* Default@2x.png */; };
+		3D0E9B480000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7E6000000000000000000 /* AppDelegate.h */; };
+		3E8ACCED0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BD98B00000000000000000 /* AppDelegate.m */; };
+		1CE0F3400000000000000000 /* iOS6CompatViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 55F1BD200000000000000000 /* iOS6CompatViewController.h */; };
+		3538F17D0000000000000000 /* iOS6CompatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C9FE1B0000000000000000 /* iOS6CompatViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32BAC3E10000000000000000 /* iOS6Compat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "iOS6Compat.app"; path = "iOS6Compat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AC956D0000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		44238A000000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		1975A1380000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		CE0838100000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		1BABDB310000000000000000 /* iOS6CompatViewController.xib */ = {isa = PBXFileReference; name = "iOS6CompatViewController.xib"; path = "iOS6CompatViewController.xib"; sourceTree = "<group>"; };
+		30DF43C90000000000000000 /* blueprint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blueprint.png"; path = "blueprint.png"; sourceTree = "<group>"; };
+		1F0A04B30000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D34C59D00000000000000000 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9FA7E6000000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		21BD98B00000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		55F1BD200000000000000000 /* iOS6CompatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "iOS6CompatViewController.h"; path = "iOS6CompatViewController.h"; sourceTree = "<group>"; };
+		38C9FE1B0000000000000000 /* iOS6CompatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "iOS6CompatViewController.m"; path = "iOS6CompatViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		131D97500000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1B88CF0000000000000000 /* UIKit.framework in Frameworks */,
+				B12C02000000000000000000 /* MapKit.framework in Frameworks */,
+				15E4949A0000000000000000 /* Foundation.framework in Frameworks */,
+				94F76E300000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		214B4B030000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				BE4FF4F00000000000000000 /* iOS6Compat */,
+				2BFE70DD0000000000000000 /* Frameworks */,
+				169825290000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		169825290000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32BAC3E10000000000000000 /* iOS6Compat.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		2BFE70DD0000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22AC956D0000000000000000 /* UIKit.framework */,
+				44238A000000000000000000 /* MapKit.framework */,
+				1975A1380000000000000000 /* Foundation.framework */,
+				CE0838100000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		BE4FF4F00000000000000000 /* iOS6Compat */ = {
+			isa = PBXGroup;
+			children = (
+				9FA7E6000000000000000000 /* AppDelegate.h */,
+				30DF43C90000000000000000 /* blueprint.png */,
+				D34C59D00000000000000000 /* Default@2x.png */,
+				1F0A04B30000000000000000 /* Default-568h@2x.png */,
+				55F1BD200000000000000000 /* iOS6CompatViewController.h */,
+				1BABDB310000000000000000 /* iOS6CompatViewController.xib */,
+				6CC4CA000000000000000000 /* Supporting Files */,
+			);
+			name = "iOS6Compat";
+			sourceTree = "<group>";
+		};
+		6CC4CA000000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21BD98B00000000000000000 /* AppDelegate.m */,
+				38C9FE1B0000000000000000 /* iOS6CompatViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B0001510000000000000000 /* iOS6Compat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28079E070000000000000000 /* Build configuration list for PBXNativeTarget "iOS6Compat" */;
+			buildPhases = (
+				2F5C9A5F0000000000000000 /* Sources */,
+				131D97500000000000000000 /* Frameworks */,
+				184739EA0000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS6Compat";
+			productName = "iOS6Compat";
+			productReference = 32BAC3E10000000000000000 /* iOS6Compat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		204CDB770000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1D54782D0000000000000000 /* Build configuration list for PBXProject "iOS6Compat" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 214B4B030000000000000000;
+			productRefGroup = 169825290000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B0001510000000000000000 /* iOS6Compat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184739EA0000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181ACE930000000000000000 /* iOS6CompatViewController.xib in Resources */,
+				2D4E372B0000000000000000 /* blueprint.png in Resources */,
+				1B78F8150000000000000000 /* Default-568h@2x.png in Resources */,
+				9A3B8FF00000000000000000 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F5C9A5F0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0E9B480000000000000000 /* AppDelegate.h in Sources */,
+				3E8ACCED0000000000000000 /* AppDelegate.m in Sources */,
+				1CE0F3400000000000000000 /* iOS6CompatViewController.h in Sources */,
+				3538F17D0000000000000000 /* iOS6CompatViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ED0A9D20000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		12A152530000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "iOS6Compat";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D54782D0000000000000000 /* Build configuration list for PBXProject "iOS6Compat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED0A9D20000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		28079E070000000000000000 /* Build configuration list for PBXNativeTarget "iOS6Compat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A152530000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 204CDB770000000000000000 /* Project object */;
+}
